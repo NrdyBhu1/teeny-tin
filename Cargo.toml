@@ -1,0 +1,11 @@
+[package]
+name = "teeny-tin"
+version = "0.1.0"
+authors = ["NrdyBhu1 <NrdyBhu1@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pancurses = "0.16"
+
+[profile.release]
+opt-level = 3
