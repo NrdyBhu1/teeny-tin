@@ -1,5 +1,5 @@
 # teeny-tin
-Something build as clone of togglebtye's Witchbox
+Something build as clone of [togglebtye](https://github.com/togglebyte)'s Witchbox
 
  - responsive to window resize
  - load `~/todo.md`
