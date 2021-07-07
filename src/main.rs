@@ -26,14 +26,14 @@ fn main() {
     loop {
         window.clear();
         window.border(0, 0, 0, 0, 0, 0, 0, 0);
-        window.mvaddstr(0, 2, "Teeny Tiny");
+        window.mvaddstr(0, 2, "Teeny Tin");
         window.mv(1, 2);
         addstr(&window, &content);
         window.refresh();
 
         if let Some(key) = window.getch() {
             match key {
-                Input::KeyBackspace => {
+                Input::Character('Q') => {
                     break;
                 }
                 Input::Character('r') => {
